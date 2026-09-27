@@ -43,6 +43,7 @@ Cargo workspace (Rust edition 2024) из одного крейта:
 ## Установка и запуск
 
 ```bash
+cargo install --git https://github.com/Egor-Liadsky/pipeline-mcp-agent pipeline-mcp
 cargo install --path crates/pipeline        # из локальной копии
 cargo build --release                       # или target/release/pipeline-mcp
 
